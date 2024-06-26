@@ -1,0 +1,10 @@
+.navlink {
+    text-decoration-color: var(--custom_orange);
+    font-size: 32;
+    font-weight: 600;  
+}
+
+.logo {
+    background-color: var(--custom_orange);
+    min-height: 50px;
+}

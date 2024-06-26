@@ -1,0 +1,47 @@
+.skills {
+    background-color:#FFDFDF;
+    color:#FC1C00; 
+}
+
+.activebtn {
+    background-color: var(--custom_pink);
+    color: var(--custom_red);
+}
+
+.box {
+    border-color: var(--custom_orange);
+    color: var(--custom_orange);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.inactive_box{
+    background-color: #eae9e9; 
+    border: 0px;
+    color: #464646;
+    cursor: not-allowed;
+}
+
+.avail_box{ 
+    border: 2px solid var(--custom_orange);
+    color: var(--custom_orange);
+    cursor: pointer;
+}
+
+.active_box{
+    color: var(--custom_orange);
+    background-color: var(--custom_pink);
+}
+
+.payment_btn{
+    background-color: var(--custom_orange);
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.join_session_box{
+    
+}

@@ -1,0 +1,48 @@
+._btn {
+    background-color: var(--custom_orange);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 1.5rem;
+    width: 50%;
+}
+
+._border_color_custom_orange {
+    border-color: var(--custom_orange);
+}
+
+.startup_btn{
+    width: 70%;
+    background-color: var(--custom_orange);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.half_bdr{
+    position: relative;
+}
+
+
+.half_bdr:after {
+    content: "";
+    border-bottom: 2px solid var(--custom_orange);
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    left: 25%;
+    right: 25%;
+  }
+
+.join_now_btn{
+    width: 200px;
+    background-color: var(--custom_orange);
+    color: white;
+    padding-inline: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-inline: auto;
+}
